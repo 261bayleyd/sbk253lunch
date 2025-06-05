@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Lunch Finder</title>
+        <link rel="icon" type="image/x-icon" href="logo.png" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Lunch Finder</h1>
+        <p>PLease select the date you want to know the lunch for.</p>
+        <input type="date" id="inputDate" name="inputDate">
+        <button id = "submit" onclick = "go()">Find Lunch</button>
+        <p id = "result"></p>
+        <div id = "fields" style = "display: none;">
+            <h3>Main Meal:</h3>
+            <p id = "main"></p>
+            <h3>Vegetarian:</h3>
+            <p id = "veg"></p>
+            <h3>Side Items:</h3>
+            <p id = "sides"></p>
+            <h3>Dessert:</h3>
+            <p id = "dessert"></p>
+            <h3>Also Avalible:</h3>
+            <p id = "also"></p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
